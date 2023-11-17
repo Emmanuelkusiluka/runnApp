@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'login_page.dart';
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
 
@@ -111,11 +111,11 @@ class _HomeState extends State<RegisterPage> {
                  onTap: () {
                    Navigator.push(
                      context,
-                     MaterialPageRoute(builder: (context) => const RegisterPage()),
+                     MaterialPageRoute(builder: (context) => const Home()),
                    );
                  },
                  child: const Text(
-                   'Register here',
+                   'Login here',
                    style: TextStyle(
                      fontSize: 16,
                      color: Colors.blue,
