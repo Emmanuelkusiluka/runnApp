@@ -14,6 +14,7 @@ class _HomeState extends State<RegisterPage> {
       appBar: AppBar(
         title: const Text('Welcome To runn'),
         toolbarHeight: 170.0,
+        backgroundColor: Colors.blueAccent,
       ),
       backgroundColor: Colors.white,
       body: Padding(

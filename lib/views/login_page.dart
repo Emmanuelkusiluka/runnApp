@@ -37,6 +37,7 @@ class _SignInFormState extends State<Home> {
       appBar: AppBar(
         title: const Text('runn'),
         toolbarHeight: 100.0,
+        backgroundColor: Colors.blueAccent,
         // You can also use preferredSize property directly
         // preferredSize: Size.fromHeight(100.0),
       ),
